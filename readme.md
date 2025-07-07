@@ -1,3 +1,7 @@
+Explainer video:
+
+https://www.loom.com/share/f8056376262c45f09e9b8179c2d2eb16?sid=44d0df33-2275-4dc4-9054-2108399210e4
+
 Install commands:
 
 1) poetry install
