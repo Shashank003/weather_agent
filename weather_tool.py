@@ -22,7 +22,7 @@ def main():
     OPEN_WEATHER_API_KEY = os.environ["OPEN_WEATHER_API_KEY"]
 
     
-    weather = OpenWeatherMapAPIWrapper(openweathermap_api_key="bd5e378503939ddaee76f12ad7a97608")
+    weather = OpenWeatherMapAPIWrapper(openweathermap_api_key=OPEN_WEATHER_API_KEY)
     tools = [weather.run]
 
     agent = create_react_agent("openai:gpt-4.1-mini", tools)
